@@ -2,12 +2,12 @@ import java.io.*;
 import java.net.*;
 import java.nio.charset.StandardCharsets;
 
-public class potifyTokenRequest {
+public class SpotifyTokenRequest {
     public static void main(String[] args) throws Exception {
-        String clientId = "0db26cfa9a1f48ca970b17f72b451f82";
-        String clientSecret = "cd9d6fdf480d4cbcbe7fd4b39416e9c5";
+        String clientId = "client_id";
+        String clientSecret = "client_secret";
         String redirectUri = "http://127.0.0.1:8888/callback";
-        String code = "AQCv-BYPN87W3OB5VarEBuvoHM8YPFeFzE0tpADskDQPelLdg9ezbTBPvD656vG4IRIkwAVYcj9rHsv0sIN9tZxUXo0qIEljUR2bNkERZxuG3tigpCxWfQd8sG0KOKMP9fK9YSP_u874ZoZlczPVoGzxpXYKihMCZ4P4Ph4_93onmQkdWJOwBrRrK6zP7_9j2vKVzh5WwQ"; // твой полный код
+        String code = "authorization code";
 
         URL url = new URL("https://accounts.spotify.com/api/token");
         HttpURLConnection conn = (HttpURLConnection) url.openConnection();

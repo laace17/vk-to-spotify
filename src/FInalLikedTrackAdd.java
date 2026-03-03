@@ -7,7 +7,7 @@ import java.net.URL;
 import java.net.URLEncoder;
 
 public class FInalLikedTrackAdd {
-    private static final String ACCESS_TOKEN = "BQAToxh-Qj1aGgy5m1faE5E66KZX4PNDCTBXOwXj3OBSNT0nN6lK23gEMF9hkDHdDac_25WWWBsum8DudEIQK5trB_MeHugJ2OEyhmo-jz3ARas6NSZiQQqLrjDFG73BoL-_zkyQEG_2RJoHMScTpJ1Hk3Je1G0qWl2dM-8ZUXIo1O2sU3SkOzZUdDun4He8rDgNRvFDji7r4g3e9VC612YZPIrRiLxS6sAUseXp2laqIDPNtnE2i6-j9OmDzSQ";
+    private static final String ACCESS_TOKEN = "access_token";
 
     public static void main(String[] args) throws IOException {
         BufferedReader autor = new BufferedReader(new FileReader("src/author.txt"));

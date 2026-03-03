@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class getAuthorAndNameTrack {
+public class GetAuthorAndNameTrack {
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new FileReader("src/all_tracks"));
         BufferedWriter author = new BufferedWriter(new FileWriter("src/author.txt"));
